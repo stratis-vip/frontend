@@ -1,0 +1,8 @@
+<p>
+    Σύνοψη Δραστηριότητας
+</p>
+<p> Έναρξη: {{startTime}} </p>
+<p>Aπόσταση: {{ getDistance() }} ΚΜ</p>
+<ul>
+    <li *ngFor="let lap of laps">{{lap}}</li>
+</ul>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivitySummaryComponent } from './activity-summary/activity-summary.component';
 
 @Component({
   selector: 'app-root',
