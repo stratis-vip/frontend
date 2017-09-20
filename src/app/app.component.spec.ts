@@ -1,3 +1,4 @@
+import { NavbarComponent } from './navbar/navbar.component';
 import { TestBed, async } from '@angular/core/testing';
 
 import { AppComponent } from './app.component';
@@ -8,7 +9,8 @@ describe('AppComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
-        ActivitySummaryComponent
+        ActivitySummaryComponent,
+        NavbarComponent
       ],
     }).compileComponents();
   }));
